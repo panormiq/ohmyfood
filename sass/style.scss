@@ -1,0 +1,200 @@
+body{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0px;
+    font-family: 'Roboto';
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+   
+    header{
+        margin-top:20px;
+        text-align: center;
+
+     
+       
+    }
+    .logo_img{
+    
+    width: auto;
+    height: 30px;
+    margin-bottom: 10px;
+
+    }
+    .localisation{
+        display: flex;   
+        padding-top: 10px;
+        padding-bottom: 10px;
+        justify-content: center;
+        /*border radiant*/
+       border-top: 2px solid #cecece;
+        
+        background-color: #eaeaea;
+
+        p{
+            margin: 0px;
+            padding-left: 10px;
+        }
+       
+    }
+    .exploreur {
+     
+        
+        background-color: #f7f7f7;
+        padding-bottom: 40px;
+        h1{
+            margin-top: 40px;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: 26px;
+            /*font-family: 'Shrikhand';*/
+        }
+        p{
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .exploreur__button{
+            padding-left: 25px;
+            padding-right: 25px;
+            color: white;
+            border: none;
+            background: linear-gradient(170deg, #f175da, #a85ddc);
+            height: 50px;
+            border-radius:  25px;
+        }
+        
+    }
+    main {
+        text-align: left;
+        
+        .etapes{
+           display: flex;
+           align-items: center;
+           box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            height: 60px;
+            background-color: #f7f7f7;
+            border-radius: 15px;
+            margin-left: 20px;
+            margin-bottom: 20px;
+            padding-right: 10px;
+            font-weight: 700;
+            p:first-child{
+                margin-left: -10px;
+                height: 20px;
+                width: 20px;
+                text-align: center;
+                color: white;
+                border-radius: 10px;
+                background-color: #a85ddc;
+            }
+            p:not(:first-child){
+                padding-left: 20px;
+            }
+            i {
+                font-size: 20px;
+                color: #7e7e7e;
+            }
+            
+        }
+        .etapes:hover{
+            background-color: #f5edff ;
+            i{
+                color: #a85ddc;
+            }
+        }
+     }
+     .restaurants{
+        margin-top: 20px;
+        padding-top: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 60px;
+        background-color: #f7f7f7;
+     }
+     article{
+        .containeur {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        border-radius: 20px;
+        .texte{
+            margin-left: 15px;
+        }
+        h3, p {
+            margin-top: 0px;
+            margin-bottom: 0px;
+           
+        }
+        h3{
+            padding-top: 15px;
+        }
+        p{
+            padding-bottom: 15px;
+        }
+        .hiden{
+            display: none;
+            background-color: black;
+        }
+        i{
+           
+            padding-right: 20px;
+            font-size: 20px;
+           
+        }
+        .coeur:hover{
+            i{
+            background: linear-gradient(170deg, #f175da, #a85ddc);
+            
+            background-clip: text;
+            color: transparent;
+           
+            
+            }
+            .visible{
+                display: none;
+            }
+            .hiden{
+                display: initial;
+            }
+        }
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        img{
+            /*image a cadrer corectement*/
+            aspect-ratio: 1.9/1;
+            width: 100%;
+            border-radius: 20px 20px 0px 0px;
+            
+        }
+     }
+     article:not(:first-child){
+        margin-top: 20px;
+     }
+     footer{
+        color:white;
+        text-align: left;
+        background-color: #353535;
+        padding-left: 30px;
+        padding-bottom: 20px;
+        font-size: 14px;
+        i{
+            margin-right: 5px;
+            font-size: 12px;
+        }
+        ul {
+        list-style: none;
+        padding-left: 0px;
+        }
+        li:not(:first-child){
+            margin-top: 5px;
+        }
+        h3{
+            font-family: 'Shrikhand';
+            font-size: 14px;
+            font-weight: 500;
+            
+        }
+     }
+   
+}

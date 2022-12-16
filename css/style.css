@@ -1,0 +1,197 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  margin: 0px;
+  font-family: "Roboto";
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+body header {
+  margin-top: 20px;
+  text-align: center;
+}
+body .logo_img {
+  width: auto;
+  height: 30px;
+  margin-bottom: 10px;
+}
+body .localisation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /*border radiant*/
+  border-top: 2px solid #cecece;
+  background-color: #eaeaea;
+}
+body .localisation p {
+  margin: 0px;
+  padding-left: 10px;
+}
+body .exploreur {
+  background-color: #f7f7f7;
+  padding-bottom: 40px;
+}
+body .exploreur h1 {
+  margin-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 26px;
+  /*font-family: 'Shrikhand';*/
+}
+body .exploreur p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+body .exploreur .exploreur__button {
+  padding-left: 25px;
+  padding-right: 25px;
+  color: white;
+  border: none;
+  background: linear-gradient(170deg, #f175da, #a85ddc);
+  height: 50px;
+  border-radius: 25px;
+}
+body main {
+  text-align: left;
+}
+body main .etapes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  height: 60px;
+  background-color: #f7f7f7;
+  border-radius: 15px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  padding-right: 10px;
+  font-weight: 700;
+}
+body main .etapes p:first-child {
+  margin-left: -10px;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  background-color: #a85ddc;
+}
+body main .etapes p:not(:first-child) {
+  padding-left: 20px;
+}
+body main .etapes i {
+  font-size: 20px;
+  color: #7e7e7e;
+}
+body main .etapes:hover {
+  background-color: #f5edff;
+}
+body main .etapes:hover i {
+  color: #a85ddc;
+}
+body .restaurants {
+  margin-top: 20px;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 60px;
+  background-color: #f7f7f7;
+}
+body article {
+  border-radius: 20px;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+body article .containeur {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body article .texte {
+  margin-left: 15px;
+}
+body article h3, body article p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+body article h3 {
+  padding-top: 15px;
+}
+body article p {
+  padding-bottom: 15px;
+}
+body article .hiden {
+  display: none;
+  background-color: black;
+}
+body article i {
+  padding-right: 20px;
+  font-size: 20px;
+}
+body article .coeur:hover i {
+  background: linear-gradient(170deg, #f175da, #a85ddc);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+}
+body article .coeur:hover .visible {
+  display: none;
+}
+body article .coeur:hover .hiden {
+  display: initial;
+}
+body article img {
+  /*image a cadrer corectement*/
+  aspect-ratio: 1.9/1;
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+}
+body article:not(:first-child) {
+  margin-top: 20px;
+}
+body footer {
+  color: white;
+  text-align: left;
+  background-color: #353535;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  font-size: 14px;
+}
+body footer i {
+  margin-right: 5px;
+  font-size: 12px;
+}
+body footer ul {
+  list-style: none;
+  padding-left: 0px;
+}
+body footer li:not(:first-child) {
+  margin-top: 5px;
+}
+body footer h3 {
+  font-family: "Shrikhand";
+  font-size: 14px;
+  font-weight: 500;
+}
