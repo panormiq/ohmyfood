@@ -3,6 +3,8 @@ main .menu .entete_menu img {
   width: 100%;
   z-index: 1;
   position: relative;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 main .menu .entete_menu h1 {
   font-family: "Shrikhand";
