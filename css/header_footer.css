@@ -18,6 +18,11 @@ header {
   margin-top: 20px;
   text-align: center;
 }
+header .logo_img {
+  width: auto;
+  height: 30px;
+  margin-bottom: 10px;
+}
 
 footer {
   color: white;
