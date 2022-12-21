@@ -13,10 +13,6 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-body header {
-  margin-top: 20px;
-  text-align: center;
-}
 body .logo_img {
   width: auto;
   height: 30px;
@@ -170,28 +166,4 @@ body article img {
 }
 body article:not(:first-child) {
   margin-top: 20px;
-}
-body footer {
-  color: white;
-  text-align: left;
-  background-color: #353535;
-  padding-left: 30px;
-  padding-bottom: 20px;
-  font-size: 14px;
-}
-body footer i {
-  margin-right: 5px;
-  font-size: 12px;
-}
-body footer ul {
-  list-style: none;
-  padding-left: 0px;
-}
-body footer li:not(:first-child) {
-  margin-top: 5px;
-}
-body footer h3 {
-  font-family: "Shrikhand";
-  font-size: 14px;
-  font-weight: 500;
 }

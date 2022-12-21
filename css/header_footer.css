@@ -1,0 +1,29 @@
+header {
+  margin-top: 20px;
+  text-align: center;
+}
+
+footer {
+  color: white;
+  text-align: left;
+  background-color: #353535;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  font-size: 14px;
+}
+footer i {
+  margin-right: 5px;
+  font-size: 12px;
+}
+footer ul {
+  list-style: none;
+  padding-left: 0px;
+}
+footer li:not(:first-child) {
+  margin-top: 5px;
+}
+footer h3 {
+  font-family: "Shrikhand";
+  font-size: 14px;
+  font-weight: 500;
+}

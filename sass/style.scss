@@ -8,13 +8,7 @@ body{
     margin-left: auto;
     margin-right: auto;
    
-    header{
-        margin-top:20px;
-        text-align: center;
-
-     
-       
-    }
+   
     .logo_img{
     
     width: auto;
@@ -171,30 +165,6 @@ body{
      article:not(:first-child){
         margin-top: 20px;
      }
-     footer{
-        color:white;
-        text-align: left;
-        background-color: #353535;
-        padding-left: 30px;
-        padding-bottom: 20px;
-        font-size: 14px;
-        i{
-            margin-right: 5px;
-            font-size: 12px;
-        }
-        ul {
-        list-style: none;
-        padding-left: 0px;
-        }
-        li:not(:first-child){
-            margin-top: 5px;
-        }
-        h3{
-            font-family: 'Shrikhand';
-            font-size: 14px;
-            font-weight: 500;
-            
-        }
-     }
+    
    
 }
