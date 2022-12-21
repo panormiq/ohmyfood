@@ -1,24 +1,10 @@
-body {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  text-align: center;
-  margin: 0px;
-  font-family: "Roboto";
-  width: 350px;
-  margin-left: auto;
-  margin-right: auto;
-}
-body .logo_img {
+.logo_img {
   width: auto;
   height: 30px;
   margin-bottom: 10px;
 }
-body .localisation {
+
+.localisation {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -31,26 +17,27 @@ body .localisation {
   border-top: 2px solid #cecece;
   background-color: #eaeaea;
 }
-body .localisation p {
+.localisation p {
   margin: 0px;
   padding-left: 10px;
 }
-body .exploreur {
+
+.exploreur {
   background-color: #f7f7f7;
   padding-bottom: 40px;
 }
-body .exploreur h1 {
+.exploreur h1 {
   margin-top: 40px;
   padding-left: 20px;
   padding-right: 20px;
   font-size: 26px;
   /*font-family: 'Shrikhand';*/
 }
-body .exploreur p {
+.exploreur p {
   padding-left: 20px;
   padding-right: 20px;
 }
-body .exploreur .exploreur__button {
+.exploreur .exploreur__button {
   padding-left: 25px;
   padding-right: 25px;
   color: white;
@@ -59,10 +46,11 @@ body .exploreur .exploreur__button {
   height: 50px;
   border-radius: 25px;
 }
-body main {
+
+main {
   text-align: left;
 }
-body main .etapes {
+main .etapes {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -79,7 +67,7 @@ body main .etapes {
   padding-right: 10px;
   font-weight: 700;
 }
-body main .etapes p:first-child {
+main .etapes p:first-child {
   margin-left: -10px;
   height: 20px;
   width: 20px;
@@ -88,20 +76,21 @@ body main .etapes p:first-child {
   border-radius: 10px;
   background-color: #a85ddc;
 }
-body main .etapes p:not(:first-child) {
+main .etapes p:not(:first-child) {
   padding-left: 20px;
 }
-body main .etapes i {
+main .etapes i {
   font-size: 20px;
   color: #7e7e7e;
 }
-body main .etapes:hover {
+main .etapes:hover {
   background-color: #f5edff;
 }
-body main .etapes:hover i {
+main .etapes:hover i {
   color: #a85ddc;
 }
-body .restaurants {
+
+.restaurants {
   margin-top: 20px;
   padding-top: 30px;
   padding-left: 20px;
@@ -109,12 +98,13 @@ body .restaurants {
   padding-bottom: 60px;
   background-color: #f7f7f7;
 }
-body article {
+
+article {
   border-radius: 20px;
   -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
           box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-body article .containeur {
+article .containeur {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -125,45 +115,46 @@ body article .containeur {
       -ms-flex-align: center;
           align-items: center;
 }
-body article .texte {
+article .texte {
   margin-left: 15px;
 }
-body article h3, body article p {
+article h3, article p {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-body article h3 {
+article h3 {
   padding-top: 15px;
 }
-body article p {
+article p {
   padding-bottom: 15px;
 }
-body article .hiden {
+article .hiden {
   display: none;
   background-color: black;
 }
-body article i {
+article i {
   padding-right: 20px;
   font-size: 20px;
 }
-body article .coeur:hover i {
+article .coeur:hover i {
   background: linear-gradient(170deg, #f175da, #a85ddc);
   -webkit-background-clip: text;
           background-clip: text;
   color: transparent;
 }
-body article .coeur:hover .visible {
+article .coeur:hover .visible {
   display: none;
 }
-body article .coeur:hover .hiden {
+article .coeur:hover .hiden {
   display: initial;
 }
-body article img {
+article img {
   /*image a cadrer corectement*/
   aspect-ratio: 1.9/1;
   width: 100%;
   border-radius: 20px 20px 0px 0px;
 }
-body article:not(:first-child) {
+
+article:not(:first-child) {
   margin-top: 20px;
 }
