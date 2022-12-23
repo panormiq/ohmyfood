@@ -57,6 +57,7 @@ main .menu article {
   border-bottom-right-radius: 15px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
           box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  opacity: 0;
 }
 main .menu article h3 {
   font-weight: 600;
@@ -77,6 +78,62 @@ main .menu article .infos p {
 }
 main .menu article .infos .prix {
   font-weight: 600;
+}
+@-webkit-keyframes opa {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes opa {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+main .menu .animation-1 {
+  -webkit-animation: opa 0.5s 0.5s forwards;
+          animation: opa 0.5s 0.5s forwards;
+}
+main .menu .animation-2 {
+  -webkit-animation: opa 0.5s 0.9s forwards;
+          animation: opa 0.5s 0.9s forwards;
+}
+main .menu .animation-3 {
+  -webkit-animation: opa 0.5s 1.4s forwards;
+          animation: opa 0.5s 1.4s forwards;
+}
+main .menu .animation-4 {
+  -webkit-animation: opa 0.5s 1.9s forwards;
+          animation: opa 0.5s 1.9s forwards;
+}
+main .menu .animation-5 {
+  -webkit-animation: opa 0.5s 2.4s forwards;
+          animation: opa 0.5s 2.4s forwards;
+}
+main .menu .animation-6 {
+  -webkit-animation: opa 0.5s 2.9s forwards;
+          animation: opa 0.5s 2.9s forwards;
+}
+main .menu .animation-7 {
+  -webkit-animation: opa 0.5s 3.4s forwards;
+          animation: opa 0.5s 3.4s forwards;
+}
+main .menu .animation-8 {
+  -webkit-animation: opa 0.5s 3.9s forwards;
+          animation: opa 0.5s 3.9s forwards;
+}
+main .menu .animation-9 {
+  -webkit-animation: opa 0.5s 4.4s forwards;
+          animation: opa 0.5s 4.4s forwards;
+}
+main .menu .animation-10 {
+  -webkit-animation: opa 0.5s 4.9s forwards;
+          animation: opa 0.5s 4.9s forwards;
 }
 main .menu .order__button {
   padding-left: 25px;
