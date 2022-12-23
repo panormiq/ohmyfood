@@ -62,6 +62,7 @@ main{
         article{
             margin-right: 10px;
             margin-left: 10px;
+           
             padding-left: 10px;
             padding-right: 20px;
             margin-bottom: 20px;
@@ -93,11 +94,16 @@ main{
             0%   { opacity:0; }
             100% { opacity:1; }
             }
+        @keyframes translation_y {
+            0%   { margin-top: 10px; }
+            100% { margin-top: 0px;  }
+            }
+
             @for $i from 1 through 10 {
                
                 
                 .animation-#{$i} {
-                   animation: opa 0.5s  #{(0.4*$i)}s forwards;
+                   animation: opa 3s #{0.2*$i}s forwards;
                 }
             }
         .order__button{
