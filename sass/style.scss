@@ -1,5 +1,45 @@
 
+   @keyframes spin {
+    0% { transform: rotate(0deg);
+        border: 16px solid #f3f3f3;
+        border-radius: 50%;
+        border-top: 16px solid #9356DC ;
+        border-right: 16px solid #99E2D0;
+        border-bottom: 16px solid #FF79DA;
+        width: 120px;
+        margin: auto;
+        height: 120px;
+        
+        visibility: visible; }
+    100% { transform: rotate(360deg);
+        border: 16px solid #f3f3f3;
+        border-radius: 50%;
+        border-top: 16px solid #9356DC ;
+        border-right: 16px solid #99E2D0;
+        border-bottom: 16px solid #FF79DA;
+        margin: auto;
+        width: 120px;
+        height: 120px;
+        visibility: visible; }
+  }
+   .loader {
+ 
+    
+    
+    animation: spin 2.6s linear ;
    
+    }
+  
+    .page{
+        
+        animation: aparait 3s linear forwards;
+        
+    }
+    @keyframes aparait {
+        0% {  visibility: hidden; }
+        99% { visibility: hidden; }
+        100% {visibility: visible; }
+      }
    
     .localisation{
         display: flex;   

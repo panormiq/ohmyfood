@@ -95,45 +95,61 @@ main .menu article .infos .prix {
     opacity: 1;
   }
 }
+@-webkit-keyframes translation_y {
+  0% {
+    margin-top: 10px;
+  }
+  100% {
+    margin-top: 0px;
+  }
+}
+@keyframes translation_y {
+  0% {
+    margin-top: 10px;
+  }
+  100% {
+    margin-top: 0px;
+  }
+}
 main .menu .animation-1 {
-  -webkit-animation: opa 0.5s 0.5s forwards;
-          animation: opa 0.5s 0.5s forwards;
+  -webkit-animation: opa 3s 0.2s forwards;
+          animation: opa 3s 0.2s forwards;
 }
 main .menu .animation-2 {
-  -webkit-animation: opa 0.5s 0.9s forwards;
-          animation: opa 0.5s 0.9s forwards;
+  -webkit-animation: opa 3s 0.4s forwards;
+          animation: opa 3s 0.4s forwards;
 }
 main .menu .animation-3 {
-  -webkit-animation: opa 0.5s 1.4s forwards;
-          animation: opa 0.5s 1.4s forwards;
+  -webkit-animation: opa 3s 0.6s forwards;
+          animation: opa 3s 0.6s forwards;
 }
 main .menu .animation-4 {
-  -webkit-animation: opa 0.5s 1.9s forwards;
-          animation: opa 0.5s 1.9s forwards;
+  -webkit-animation: opa 3s 0.8s forwards;
+          animation: opa 3s 0.8s forwards;
 }
 main .menu .animation-5 {
-  -webkit-animation: opa 0.5s 2.4s forwards;
-          animation: opa 0.5s 2.4s forwards;
+  -webkit-animation: opa 3s 1s forwards;
+          animation: opa 3s 1s forwards;
 }
 main .menu .animation-6 {
-  -webkit-animation: opa 0.5s 2.9s forwards;
-          animation: opa 0.5s 2.9s forwards;
+  -webkit-animation: opa 3s 1.2s forwards;
+          animation: opa 3s 1.2s forwards;
 }
 main .menu .animation-7 {
-  -webkit-animation: opa 0.5s 3.4s forwards;
-          animation: opa 0.5s 3.4s forwards;
+  -webkit-animation: opa 3s 1.4s forwards;
+          animation: opa 3s 1.4s forwards;
 }
 main .menu .animation-8 {
-  -webkit-animation: opa 0.5s 3.9s forwards;
-          animation: opa 0.5s 3.9s forwards;
+  -webkit-animation: opa 3s 1.6s forwards;
+          animation: opa 3s 1.6s forwards;
 }
 main .menu .animation-9 {
-  -webkit-animation: opa 0.5s 4.4s forwards;
-          animation: opa 0.5s 4.4s forwards;
+  -webkit-animation: opa 3s 1.8s forwards;
+          animation: opa 3s 1.8s forwards;
 }
 main .menu .animation-10 {
-  -webkit-animation: opa 0.5s 4.9s forwards;
-          animation: opa 0.5s 4.9s forwards;
+  -webkit-animation: opa 3s 2s forwards;
+          animation: opa 3s 2s forwards;
 }
 main .menu .order__button {
   padding-left: 25px;
