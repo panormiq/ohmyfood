@@ -93,11 +93,26 @@ main{
                 }
             
         }
+        @keyframes rotateZ {
+            0% { transform: rotate(0deg);
+               
+               }
+
+            100% { transform: rotate(359deg);
+                 
+                }
+            
+        }
         .animation:hover .checked_container{
            animation: translateX 1s forwards;
         
             
         }
+        .animation:hover i{
+           animation: rotateZ 1s;
+         
+             
+         }
         .checked:active{
            
             
@@ -116,7 +131,7 @@ main{
             width: auto;
             margin-right: 10px;
             margin-left: 10px;
-           /* overflow: hidden;*/
+            overflow: hidden;
             padding-left: 10px;
             padding-right: 20px;
             margin-bottom: 20px;
