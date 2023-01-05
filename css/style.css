@@ -8,8 +8,8 @@
     border-right: 16px solid #99E2D0;
     border-bottom: 16px solid #FF79DA;
     width: 120px;
-    margin: auto;
     height: 120px;
+    margin: auto;
     visibility: visible;
   }
   100% {
@@ -20,9 +20,9 @@
     border-top: 16px solid #9356DC;
     border-right: 16px solid #99E2D0;
     border-bottom: 16px solid #FF79DA;
-    margin: auto;
     width: 120px;
     height: 120px;
+    margin: auto;
     visibility: visible;
   }
 }
@@ -36,8 +36,8 @@
     border-right: 16px solid #99E2D0;
     border-bottom: 16px solid #FF79DA;
     width: 120px;
-    margin: auto;
     height: 120px;
+    margin: auto;
     visibility: visible;
   }
   100% {
@@ -48,9 +48,9 @@
     border-top: 16px solid #9356DC;
     border-right: 16px solid #99E2D0;
     border-bottom: 16px solid #FF79DA;
-    margin: auto;
     width: 120px;
     height: 120px;
+    margin: auto;
     visibility: visible;
   }
 }

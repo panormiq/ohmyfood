@@ -54,15 +54,64 @@ main{
             background-color:#99E2D0;
             margin-bottom: 10px;
         }
-      
-            
-        
+       
+        .checked_container{
+            background-color: #99E2D0;
+            width: 60px;
+            margin-left: 20px;
+            text-align: center;
+            display: flex;
+            margin-right: -80px;
+            margin-top: 0px;
+            margin-bottom: 0px;
            
+            
+           
+           i{
+          
+            margin: auto;
+            
+            color: #99E2D0;
+            background-color: white;
+           }
+            
+           
+            
+        }
+        @keyframes translateX {
+            0% { left: 40px;
+                 margin-right: -60px;
+                 margin-left: 20px;
+               
+               }
+            100% { left: 0px;
+                margin-right: -20px;
+                margin-left: 0px;
+                
+                }
+            
+        }
+        .animation:hover .checked_container{
+           animation: translateX 1s forwards;
         
+            
+        }
+        .checked:active{
+           
+            
+        }
+             
+        .article_container{
+            width: 100%;
+        }
+      
         article{
+            cursor : pointer;
+            display: flex;
+            width: auto;
             margin-right: 10px;
             margin-left: 10px;
-           
+           /* overflow: hidden;*/
             padding-left: 10px;
             padding-right: 20px;
             margin-bottom: 20px;
@@ -75,12 +124,13 @@ main{
                 font-weight: 600;
                 font-size: 14px;
                 margin-bottom: 0px;
+                display: flex;
 
             }
             .infos{
                 display: flex;
                 justify-content: space-between;
-               
+                margin-right: 10px;
                 p{
                     margin-top: 0px;
                     font-size: 12px;
@@ -88,6 +138,9 @@ main{
                 .prix{
                     font-weight: 600;
                 }
+            }
+            .infos_container{
+                display: flex;
             }
         }
         @keyframes opa {
@@ -102,7 +155,7 @@ main{
             @for $i from 1 through 10 {
                
                 
-                .animation-#{$i} {
+                .animation.x#{$i} {
                    animation: opa 3s #{0.2*$i}s forwards;
                 }
             }

@@ -46,9 +46,63 @@ main .menu .trait {
   background-color: #99E2D0;
   margin-bottom: 10px;
 }
+main .menu .checked_container {
+  background-color: #99E2D0;
+  width: 60px;
+  margin-left: 20px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: -80px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+main .menu .checked_container i {
+  margin: auto;
+  color: #99E2D0;
+  background-color: white;
+}
+@-webkit-keyframes translateX {
+  0% {
+    left: 40px;
+    margin-right: -60px;
+    margin-left: 20px;
+  }
+  100% {
+    left: 0px;
+    margin-right: -20px;
+    margin-left: 0px;
+  }
+}
+@keyframes translateX {
+  0% {
+    left: 40px;
+    margin-right: -60px;
+    margin-left: 20px;
+  }
+  100% {
+    left: 0px;
+    margin-right: -20px;
+    margin-left: 0px;
+  }
+}
+main .menu .animation:hover .checked_container {
+  -webkit-animation: translateX 1s forwards;
+          animation: translateX 1s forwards;
+}
+main .menu .article_container {
+  width: 100%;
+}
 main .menu article {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
   margin-right: 10px;
   margin-left: 10px;
+  /* overflow: hidden;*/
   padding-left: 10px;
   padding-right: 20px;
   margin-bottom: 20px;
@@ -63,6 +117,9 @@ main .menu article h3 {
   font-weight: 600;
   font-size: 14px;
   margin-bottom: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 main .menu article .infos {
   display: -webkit-box;
@@ -71,6 +128,7 @@ main .menu article .infos {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-right: 10px;
 }
 main .menu article .infos p {
   margin-top: 0px;
@@ -78,6 +136,11 @@ main .menu article .infos p {
 }
 main .menu article .infos .prix {
   font-weight: 600;
+}
+main .menu article .infos_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 @-webkit-keyframes opa {
   0% {
@@ -111,43 +174,43 @@ main .menu article .infos .prix {
     margin-top: 0px;
   }
 }
-main .menu .animation-1 {
+main .menu .animation.x1 {
   -webkit-animation: opa 3s 0.2s forwards;
           animation: opa 3s 0.2s forwards;
 }
-main .menu .animation-2 {
+main .menu .animation.x2 {
   -webkit-animation: opa 3s 0.4s forwards;
           animation: opa 3s 0.4s forwards;
 }
-main .menu .animation-3 {
+main .menu .animation.x3 {
   -webkit-animation: opa 3s 0.6s forwards;
           animation: opa 3s 0.6s forwards;
 }
-main .menu .animation-4 {
+main .menu .animation.x4 {
   -webkit-animation: opa 3s 0.8s forwards;
           animation: opa 3s 0.8s forwards;
 }
-main .menu .animation-5 {
+main .menu .animation.x5 {
   -webkit-animation: opa 3s 1s forwards;
           animation: opa 3s 1s forwards;
 }
-main .menu .animation-6 {
+main .menu .animation.x6 {
   -webkit-animation: opa 3s 1.2s forwards;
           animation: opa 3s 1.2s forwards;
 }
-main .menu .animation-7 {
+main .menu .animation.x7 {
   -webkit-animation: opa 3s 1.4s forwards;
           animation: opa 3s 1.4s forwards;
 }
-main .menu .animation-8 {
+main .menu .animation.x8 {
   -webkit-animation: opa 3s 1.6s forwards;
           animation: opa 3s 1.6s forwards;
 }
-main .menu .animation-9 {
+main .menu .animation.x9 {
   -webkit-animation: opa 3s 1.8s forwards;
           animation: opa 3s 1.8s forwards;
 }
-main .menu .animation-10 {
+main .menu .animation.x10 {
   -webkit-animation: opa 3s 2s forwards;
           animation: opa 3s 2s forwards;
 }
