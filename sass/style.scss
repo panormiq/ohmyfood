@@ -10,7 +10,7 @@
        
         height: 120px;
         margin: auto;
-        
+       
         visibility: visible; }
     100% { transform: rotate(360deg);
         border: 16px solid #f3f3f3;
@@ -22,9 +22,38 @@
         width: 120px;
         height: 120px;
         margin: auto;
+        
         visibility: visible; }
   }
+  @keyframes lc {
+    0% { 
+        width: 100%;
+       
+        height: 100vh;
+        margin: auto;
+         }
+    100% { 
+        
+        
+        width: 100%;
+    
+        height: 100vh;
+        margin: auto;
+        
+        
+     }
+  }
+  .loader-container {
+    height: 0px;
+    display: flex;
+
+    
+    
+    animation: lc 2.6s linear ;
+   
+    }
    .loader {
+  
  
     
     

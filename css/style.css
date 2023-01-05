@@ -54,6 +54,39 @@
     visibility: visible;
   }
 }
+@-webkit-keyframes lc {
+  0% {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+  }
+  100% {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+  }
+}
+@keyframes lc {
+  0% {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+  }
+  100% {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+  }
+}
+.loader-container {
+  height: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-animation: lc 2.6s linear;
+          animation: lc 2.6s linear;
+}
+
 .loader {
   -webkit-animation: spin 2.6s linear;
           animation: spin 2.6s linear;
