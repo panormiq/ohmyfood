@@ -49,6 +49,7 @@ main .menu .trait {
 main .menu .checked_container {
   background-color: #99E2D0;
   width: 60px;
+  min-width: 60px;
   margin-left: 20px;
   text-align: center;
   display: -webkit-box;
@@ -92,7 +93,9 @@ main .menu .animation:hover .checked_container {
           animation: translateX 1s forwards;
 }
 main .menu .article_container {
-  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 main .menu article {
   cursor: pointer;
@@ -117,9 +120,9 @@ main .menu article h3 {
   font-weight: 600;
   font-size: 14px;
   margin-bottom: 0px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 main .menu article .infos {
   display: -webkit-box;

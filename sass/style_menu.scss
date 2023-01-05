@@ -58,6 +58,7 @@ main{
         .checked_container{
             background-color: #99E2D0;
             width: 60px;
+            min-width: 60px;
             margin-left: 20px;
             text-align: center;
             display: flex;
@@ -102,7 +103,10 @@ main{
         }
              
         .article_container{
-            width: 100%;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+           
         }
       
         article{
@@ -120,11 +124,16 @@ main{
             border-bottom-right-radius: 15px;
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             opacity:0;
+            h3 {
+               
+            }
             h3{
                 font-weight: 600;
                 font-size: 14px;
                 margin-bottom: 0px;
-                display: flex;
+                overflow: hidden;
+              white-space: nowrap;
+                text-overflow: ellipsis;
 
             }
             .infos{
