@@ -211,25 +211,44 @@ article h3 {
 article p {
   padding-bottom: 15px;
 }
-article .hiden {
-  display: none;
-  background-color: black;
-}
 article i {
   padding-right: 20px;
   font-size: 20px;
 }
-article .coeur:hover i {
+article .coeur {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+article .visible {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+article .hiden {
+  position: absolute;
+  z-index: 1;
+  color: transparent;
+  -webkit-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
   background: linear-gradient(170deg, #f175da, #a85ddc);
+  width: 0;
+  height: 0;
   -webkit-background-clip: text;
           background-clip: text;
   color: transparent;
-}
-article .coeur:hover .visible {
-  display: none;
+  left: 0;
+  top: 0;
 }
 article .coeur:hover .hiden {
-  display: initial;
+  width: 100%;
+  height: 100%;
+  right: 0;
+  top: 0;
 }
 article img {
   /*image a cadrer corectement*/

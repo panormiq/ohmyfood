@@ -48,7 +48,7 @@ main .menu .trait {
 }
 main .menu .checked_container {
   background-color: #99E2D0;
-  width: 60px;
+  width: 50px;
   min-width: 60px;
   margin-left: 20px;
   text-align: center;
@@ -60,7 +60,10 @@ main .menu .checked_container {
   margin-bottom: 0px;
 }
 main .menu .checked_container i {
+  border-radius: 15px;
+  padding: 2px;
   margin: auto;
+  font-size: 15px;
   color: #99E2D0;
   background-color: white;
 }
@@ -88,9 +91,33 @@ main .menu .checked_container i {
     margin-left: 0px;
   }
 }
+@-webkit-keyframes rotateZ {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
+@keyframes rotateZ {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
 main .menu .animation:hover .checked_container {
   -webkit-animation: translateX 1s forwards;
           animation: translateX 1s forwards;
+}
+main .menu .animation:hover i {
+  -webkit-animation: rotateZ 1s;
+          animation: rotateZ 1s;
 }
 main .menu .article_container {
   overflow: hidden;
@@ -105,13 +132,12 @@ main .menu article {
   width: auto;
   margin-right: 10px;
   margin-left: 10px;
-  /* overflow: hidden;*/
+  overflow: hidden;
   padding-left: 10px;
   padding-right: 20px;
   margin-bottom: 20px;
   text-align: left;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
+  border-radius: 15px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
           box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   opacity: 0;
