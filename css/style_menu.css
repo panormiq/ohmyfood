@@ -116,13 +116,15 @@ main .menu article {
           box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   opacity: 0;
 }
+main .menu article h3, main .menu article p:not(.prix) {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
 main .menu article h3 {
   font-weight: 600;
   font-size: 14px;
   margin-bottom: 0px;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
 }
 main .menu article .infos {
   display: -webkit-box;
