@@ -54,7 +54,7 @@
     }
    .loader {
   
- 
+   
     
     
     animation: spin 2.6s linear ;
@@ -116,6 +116,10 @@
         
     }
     main {
+        a{
+            text-decoration: none; 
+            color: black;
+        }
         text-align: left;
         
         .etapes{
@@ -202,7 +206,7 @@
             position: absolute;
             width: 100%;
             height: 100%;
-           
+          
             left: 0;
             top: 0;
             z-index: 2;
@@ -212,7 +216,7 @@
         .hiden{
             position: absolute;
           
-            
+            margin-right: 20px;
             z-index: 1;
             color: transparent;
             transition: all 0.3s linear 0s;
@@ -227,10 +231,10 @@
         }
         .coeur:hover{
             .hiden{
+                
                 width: 100%;
                 height: 100%;
-                right: 0;
-                top: 0;
+                
                
             }
            
