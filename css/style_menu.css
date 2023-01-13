@@ -27,8 +27,12 @@ main .menu .entete_menu img {
   -o-object-fit: cover;
      object-fit: cover;
 }
+main .menu .entete_menu .coeur {
+  margin-right: 40px;
+}
 main .menu .entete_menu h1 {
   font-family: "Shrikhand";
+  font-size: 1.6em;
   font-weight: 300;
   text-align: left;
   padding-left: 10px;
