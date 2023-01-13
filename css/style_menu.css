@@ -71,7 +71,7 @@ main .menu .checked_container {
   background-color: #99E2D0;
   width: 50px;
   min-width: 60px;
-  margin-left: 20px;
+  margin-left: auto;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -92,24 +92,20 @@ main .menu .checked_container i {
   0% {
     left: 40px;
     margin-right: -60px;
-    margin-left: 20px;
   }
   100% {
     left: 0px;
     margin-right: -20px;
-    margin-left: 0px;
   }
 }
 @keyframes translateX {
   0% {
     left: 40px;
     margin-right: -60px;
-    margin-left: 20px;
   }
   100% {
     left: 0px;
     margin-right: -20px;
-    margin-left: 0px;
   }
 }
 @-webkit-keyframes rotateZ {
@@ -144,6 +140,7 @@ main .menu .article_container {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  width: 100%;
 }
 main .menu article {
   cursor: pointer;
