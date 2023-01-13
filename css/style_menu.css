@@ -29,6 +29,7 @@ main .menu .entete_menu img {
 }
 main .menu .entete_menu h1 {
   font-family: "Shrikhand";
+  font-weight: 300;
   text-align: left;
   padding-left: 10px;
   padding-top: 25px;
