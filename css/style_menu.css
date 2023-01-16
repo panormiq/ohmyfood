@@ -280,3 +280,27 @@ main .menu .order__button {
   margin-top: 10px;
   margin-bottom: 20px;
 }
+
+@media all and (min-width: 768px) {
+  .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+  }
+  .list {
+    width: 40%;
+  }
+  .order__button {
+    max-width: 400px;
+  }
+}
+@media all and (min-width: 992px) {
+  .list {
+    width: 30%;
+  }
+}

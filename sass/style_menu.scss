@@ -228,3 +228,26 @@ main{
      
     }
 }
+@media all and (min-width: 768px){
+    
+    .menu{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .list {
+     width: 40%;
+    }
+    .order__button{
+        max-width: 400px;
+    }
+}
+
+@media all and (min-width: 992px){
+    
+   
+    .list {
+     width: 30%;
+    }
+}

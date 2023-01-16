@@ -224,6 +224,19 @@ main .etapes:hover i {
   background-color: #f7f7f7;
 }
 
+.restaurant {
+  position: relative;
+  margin-bottom: 40px;
+}
+.restaurant .nouveau {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #99E2D0;
+  color: green;
+  padding: 15px;
+}
+
 article {
   border-radius: 20px;
   -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -240,7 +253,7 @@ article .containeur {
       -ms-flex-align: center;
           align-items: center;
 }
-article .texte {
+article .containeur a {
   margin-left: 15px;
 }
 article h3, article p {
@@ -319,6 +332,13 @@ article:not(:first-child) {
   .restaurants_container .restaurant {
     width: 300px;
     margin-bottom: 20px;
+  }
+  .restaurants_container .nouveau {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #99E2D0;
+    color: green padding 10px;
   }
   .restaurants_container .restaurants:not(:last-child) {
     margin-right: 40px;
