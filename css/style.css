@@ -232,9 +232,11 @@ main .etapes:hover i {
   position: absolute;
   top: 20px;
   right: 20px;
-  background-color: #99E2D0;
-  color: green;
-  padding: 15px;
+  border-radius: 5px;
+  background-color: #99e2d0;
+  color: #008766;
+  padding: 10px;
+  font-weight: bold;
 }
 
 article {
