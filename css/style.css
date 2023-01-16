@@ -321,6 +321,12 @@ article:not(:first-child) {
   .restaurants {
     text-align: center;
   }
+  .restaurants p {
+    text-align: left;
+  }
+  article:not(:first-child) {
+    margin-top: 0px;
+  }
   .restaurants_container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -332,18 +338,8 @@ article:not(:first-child) {
     margin-bottom: 0px;
   }
   .restaurants_container .restaurant {
-    width: 300px;
+    width: 40%;
     margin-bottom: 20px;
-  }
-  .restaurants_container .nouveau {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background-color: #99E2D0;
-    color: green padding 10px;
-  }
-  .restaurants_container .restaurants:not(:last-child) {
-    margin-right: 40px;
   }
   .fonctionnement {
     text-align: center;
@@ -362,5 +358,10 @@ article:not(:first-child) {
   }
   .etapes {
     min-width: 300px;
+  }
+}
+@media all and (min-width: 992px) {
+  .restaurants_container .restaurant {
+    width: 23%;
   }
 }

@@ -195,9 +195,7 @@
             }
         }
         border-radius: 20px;
-        .texte{
-           
-        }
+       
         h3, p {
             margin-top: 0px;
             margin-bottom: 0px;
@@ -278,6 +276,12 @@
         text-align: center;
         
     }
+    .restaurants p{
+        text-align: left;
+    }
+    article:not(:first-child){
+        margin-top: 0px;
+     }
     .restaurants_container{
         display: flex;
         flex-wrap: wrap;
@@ -285,21 +289,12 @@
         margin-bottom: 0px;
        
         .restaurant{
-            width: 300px;
+            width: 40%;
             margin-bottom: 20px;
            
         }
-        .nouveau{
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            background-color: #99E2D0;
-            color:green
-            padding 10px;
-        }
-        .restaurants:not(:last-child){
-            margin-right: 40px;
-        }
+      
+       
     }
     .fonctionnement{
         
@@ -318,4 +313,17 @@
 
 }
 
+@media all and (min-width: 992px){
+    .restaurants_container{
+      
+       
+        .restaurant{
+            width: 23%;
+           
+           
+        }
+      
+       
+    }
+}
     
