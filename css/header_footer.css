@@ -9,26 +9,27 @@ body {
   text-align: center;
   margin: 0px;
   font-family: "Roboto";
-  width: 350px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
+  max-width: 1400px;
 }
 
 header {
   margin-top: 20px;
-  margin-bottom: 10px;
   text-align: center;
 }
 header .logo_img {
   width: auto;
   height: 30px;
-  
+  margin-bottom: 10px;
 }
 
 footer {
   color: white;
   text-align: left;
   background-color: #353535;
+  padding-top: 20px;
   padding-left: 30px;
   padding-bottom: 20px;
   font-size: 14px;
@@ -48,4 +49,10 @@ footer h3 {
   font-family: "Shrikhand";
   font-size: 14px;
   font-weight: 500;
+}
+
+@media all and (min-width: 768px) {
+  footer {
+    text-align: center;
+  }
 }
