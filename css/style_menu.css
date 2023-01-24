@@ -32,6 +32,8 @@ main .menu .entete_menu img {
 }
 main .menu .entete_menu .coeur {
   margin-right: 40px;
+  margin: top 5px;
+  font-size: 1.3em;
 }
 main .menu .entete_menu h1 {
   font-family: "Shrikhand";
