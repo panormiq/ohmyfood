@@ -268,18 +268,6 @@ main .menu .animation.x10 {
   -webkit-animation: opa 3s 2s forwards;
           animation: opa 3s 2s forwards;
 }
-main .menu .order__button {
-  padding-left: 25px;
-  padding-right: 25px;
-  width: 60%;
-  color: white;
-  border: none;
-  background: linear-gradient(170deg, #f175da, #a85ddc);
-  height: 50px;
-  border-radius: 25px;
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
 
 @media all and (min-width: 768px) {
   .menu {

@@ -213,18 +213,7 @@ main{
                    animation: opa 3s #{0.2*$i}s forwards;
                 }
             }
-        .order__button{
-            padding-left: 25px;
-            padding-right: 25px;
-            width: 60%;
-            color: white;
-            border: none;
-            background: linear-gradient(170deg, #f175da, #a85ddc);
-            height: 50px;
-            border-radius:  25px;
-            margin-top: 10px;
-            margin-bottom: 20px;
-        }
+       
      
     }
 }

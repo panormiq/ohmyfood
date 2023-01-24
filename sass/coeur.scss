@@ -42,3 +42,19 @@
     }
    
 }
+.button{
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+    border: none;
+    background: linear-gradient(170deg, #f175da, #a85ddc);
+    height: 50px;
+    border-radius:  25px;
+    opacity: 1;
+    transition: all 0.3s linear 0s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.button:hover{
+    opacity: 0.5;
+    box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+}
