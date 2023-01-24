@@ -83,6 +83,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: sticky;
+  top: 0px;
   -webkit-animation: lc 2.6s linear;
           animation: lc 2.6s linear;
 }
