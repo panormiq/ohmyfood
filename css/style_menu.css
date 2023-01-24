@@ -18,6 +18,9 @@ header img {
   margin-right: auto;
   padding-right: 40px;
 }
+header i {
+  margin-bottom: 10px;
+}
 
 main .menu .entete_menu img {
   aspect-ratio: 1.5/1;
