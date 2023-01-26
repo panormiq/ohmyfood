@@ -19,12 +19,13 @@
   margin-right: 20px;
   z-index: 1;
   color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
   -webkit-transition: all 0.3s linear 0s;
   transition: all 0.3s linear 0s;
   background: linear-gradient(170deg, #f175da, #a85ddc);
   height: 0;
-  -webkit-background-clip: text;
-          background-clip: text;
+  background-clip: text;
   color: transparent;
   top: 0;
 }

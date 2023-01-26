@@ -297,8 +297,22 @@ main .menu .animation.x10 {
   .order__button {
     max-width: 400px;
   }
+  main .menu .entete_menu img {
+    aspect-ratio: 3/1;
+    max-height: 300px;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
 }
 @media all and (min-width: 992px) {
+  main .menu .entete_menu img {
+    aspect-ratio: 4/1;
+    max-height: 400px;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
   .list {
     width: 30%;
   }
