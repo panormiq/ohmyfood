@@ -22,6 +22,9 @@ header i {
   margin-bottom: 10px;
 }
 
+main .menu {
+  font-size: 14px;
+}
 main .menu .entete_menu img {
   aspect-ratio: 1.5/1;
   width: 100%;
@@ -66,7 +69,6 @@ main .menu h2 {
   text-align: left;
   padding-left: 10px;
   font-weight: 300;
-  font-size: 14px;
   margin-bottom: 0px;
 }
 main .menu .trait {
@@ -176,7 +178,6 @@ main .menu article h3, main .menu article p:not(.prix) {
 }
 main .menu article h3 {
   font-weight: 600;
-  font-size: 14px;
   margin-bottom: 0px;
 }
 main .menu article .infos {
@@ -296,6 +297,12 @@ main .menu .animation.x10 {
   .order__button {
     max-width: 400px;
   }
+  main .menu {
+    font-size: 16px;
+  }
+  main .menu article .infos p {
+    font-size: 14px;
+  }
   main .menu .entete_menu img {
     aspect-ratio: 3/1;
     max-height: 300px;
@@ -305,6 +312,12 @@ main .menu .animation.x10 {
   }
 }
 @media all and (min-width: 992px) {
+  main .menu {
+    font-size: 18px;
+  }
+  main .menu article .infos p {
+    font-size: 16px;
+  }
   main .menu .entete_menu img {
     aspect-ratio: 4/1;
     max-height: 400px;
