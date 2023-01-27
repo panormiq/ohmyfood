@@ -13,6 +13,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   max-width: 1400px;
+  font-size: 14px;
 }
 
 header {
@@ -32,7 +33,6 @@ footer {
   padding-top: 20px;
   padding-left: 30px;
   padding-bottom: 20px;
-  font-size: 14px;
 }
 footer i {
   margin-right: 5px;
@@ -45,9 +45,8 @@ footer ul {
 footer li:not(:first-child) {
   margin-top: 5px;
 }
-footer h3 {
+footer h2 {
   font-family: "Shrikhand";
-  font-size: 14px;
   font-weight: 500;
 }
 footer a {
@@ -62,5 +61,8 @@ footer a:visited {
 @media all and (min-width: 768px) {
   footer {
     text-align: center;
+  }
+  body {
+    font-size: 18px;
   }
 }
